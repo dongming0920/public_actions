@@ -85,7 +85,7 @@ const drawFn = async () => {
       to,
       subject: '定时任务',
       html: `
-        <h1 style="text-align: center">自动签到通知</h1>
+        <h1 style="text-align: center">掘金自动签到通知</h1>
         <p style="text-indent: 2em">签到结果：${msg}</p>
         <p style="text-indent: 2em">当前积分：${score}</p><br/>
       `
@@ -100,7 +100,7 @@ const drawFn = async () => {
       to,
       subject: '定时任务',
       html: `
-        <h1 style="text-align: center">自动签到通知</h1>
+        <h1 style="text-align: center">掘金自动签到通知</h1>
         <p style="text-indent: 2em">执行结果：${err}</p>
         <p style="text-indent: 2em">当前积分：${score}</p><br/>
       `
